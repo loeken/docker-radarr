@@ -29,6 +29,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: loeken/radarr:${{ env.version }}
+          tags: loeken/radarr:${{ env.VERSION }}
           context: .
           no-cache: true

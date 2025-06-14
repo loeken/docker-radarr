@@ -1,3 +1,3 @@
 # docker-radarr
 
-raise issues on loeken/helm-chart repo please
+raise issues on github.com/loeken/helm-chart repo please
