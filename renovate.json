@@ -4,6 +4,22 @@
   "branchConcurrentLimit": 0,
   "prHourlyLimit": 0,
   "pinDigests": true,
+  "enabledManagers": [
+    "dockerfile",
+    "github-actions",
+    "regex"
+  ],
+  "regexManagers": [
+    {
+      "fileMatch": [".github/workflows/release.yaml"],
+      "matchStrings": [
+        "loeken/radarr:(?<currentValue>\\d+\\.\\d+\\.\\d+-nightly)"
+      ],
+      "datasourceTemplate": "docker",
+      "packageNameTemplate": "linuxserver/radarr",
+      "versioningTemplate": "docker"
+    }
+  ],
   "packageRules": [
     {
       "matchUpdateTypes": [
