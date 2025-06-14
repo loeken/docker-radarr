@@ -1,2 +1,2 @@
-FROM linuxserver/radarr:version-5.19.3.9730
+FROM linuxserver/radarr:5.26.2-nightly
 RUN apk upgrade
