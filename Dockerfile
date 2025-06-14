@@ -1,2 +1,2 @@
-FROM linuxserver/radarr:5.26.2-nightly
+FROM linuxserver/radarr:5.27.0-nightly@sha256:83514e4dcea56b72f7a04b1339101f389a238a1e0d3a91b54c1b31a6f2b57dcd
 RUN apk upgrade
